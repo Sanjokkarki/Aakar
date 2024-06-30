@@ -1,0 +1,68 @@
+/* @ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'Axiforma-Bold';
+  
+src:local('Axiforma-Bold'),
+ url('./assets/AakarFont/Axiforma-Bold.woff') format('woff');
+  
+}
+.Axiforma-Bold{
+  font-family: 'Axiforma-Bold';
+
+}
+@font-face{
+  font-family: 'Axiforma-Medium';
+  
+src:local('Axiforma-Medium'),
+ url('./assets/AakarFont/Axiforma-Medium.woff') format('woff');
+  
+}
+.Axiforma-Medium{
+  font-family: 'Axiforma-Medium';
+}
+
+@font-face{
+  font-family: 'Axiforma-Regular';
+  
+src:local('Axiforma-Regular'),
+ url('./assets/AakarFont/Axiforma-Regular.woff') format('woff');
+  
+}
+
+.Axiforma-Regular{
+  font-family: 'Axiforma-Regular';
+}
+
+@font-face{
+  font-family: 'Axiforma-Light';
+  
+src:local('Axiforma-Light'),
+ url('./assets/AakarFont/Axiforma-Light.woff') format('woff');
+  
+}
+
+.Axiforma-Light{
+  font-family: 'Axiforma-Light';
+}
+
+@font-face{
+  font-family: 'Axiforma-SemiBold';
+  
+src:local('Axiforma-SemiBold'),
+ url('./assets/AakarFont/Axiforma-SemiBold.woff') format('woff');
+  
+} 
+
+.Axiforma-SemiBold{
+  font-family: 'Axiforma-SemiBold';
+}
+
+
+/* h1{
+  @apply text-2xl font-bold;
+
+} */

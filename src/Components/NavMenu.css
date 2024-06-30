@@ -1,0 +1,21 @@
+.navMenu{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-Size: 24px;
+    gap: 40px;
+    font-Family: 'Axiforma';
+  font-Weight: '500';
+   word-Wrap: 'break-word';
+}
+
+.active-navmenu{
+    color: #19B14B;
+}
+.inactive-navmenu{
+    color: #052E14;
+}
+
+
+   
