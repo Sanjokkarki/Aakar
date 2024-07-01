@@ -8,7 +8,7 @@ import Blogs from './Pages/Blogs'
 import AboutUs from './Pages/AboutUs'
 
 
-import Header from './Components/Header'
+import Header from './Components/Navbar/Header'
 
 
 export default function App() {

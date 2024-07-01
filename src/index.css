@@ -2,7 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body>div{
+  width: 1260px;
+  
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @font-face{
   font-family: 'Axiforma-Bold';
   
@@ -62,7 +70,33 @@ src:local('Axiforma-SemiBold'),
 }
 
 
-/* h1{
-  @apply text-2xl font-bold;
+/* src/styles/custom.css */
+@layer components {
+  h1 {
+    @apply font-axiforma font-bold text-[#052E14] text-[40px] leading-[48px] md:text-[36px] md:leading-[44px];
+  }
 
-} */
+  h2 {
+    @apply font-axiforma font-bold text-[#052E14] text-[36px] leading-[44px] md:text-[32px] md:leading-[40px];
+  }
+
+  h3 {
+    @apply font-axiforma font-bold text-[#052E14] text-[32px] leading-[40px] md:text-[28px] md:leading-[36px];
+  }
+
+  h4 {
+    @apply font-axiforma font-bold text-[#052E14] text-[28px] leading-[36px] md:text-[24px] md:leading-[32px];
+  }
+
+  h5 {
+    @apply font-axiforma font-semibold text-[#052E14] text-[24px] leading-[32px] md:text-[20px] md:leading-[28px];
+  }
+
+  h6 {
+    @apply font-axiforma font-semibold text-[#052E14] text-[20px] leading-[28px] md:text-[16px] md:leading-[24px];
+  }
+
+  p {
+    @apply font-axiforma font-normal text-[#052E14] text-[16px] leading-[24px] md:text-[14px] md:leading-[20px];
+  }
+}

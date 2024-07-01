@@ -3,7 +3,8 @@ import React from 'react'
 import './Header.css'
 
 import Navbar from './Navbar'
-import Herosection from './Herosection'
+
+  import Herosection from '../HeroSection/Herosection'
 
 
 
