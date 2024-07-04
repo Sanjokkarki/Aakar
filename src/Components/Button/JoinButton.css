@@ -1,0 +1,18 @@
+.join-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px #19B14B solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    display: inline-flex;
+    color: #F0FDF3;
+    word-wrap: 'break-word'
+
+
+}
+
+.join-button:hover {
+    background-color: #19B14B;
+    color: #F0FDF3;
+}
