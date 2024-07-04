@@ -1,0 +1,58 @@
+.MainHero{
+    background-color: #DCFCE6;
+    border-radius: 16px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 0;
+    
+    
+    
+}
+.image{
+    z-index: 1;
+      
+
+}
+.text-section{
+    /* padding: 200px 80px; */
+    padding-inline: 80px;
+    padding-block: 200px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.circle1{
+    height: 200px;
+    width: 200px;
+    background-color: #14532A;
+    border-radius: 100%;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+.circle2{
+    height: 300px;
+    width: 300px;
+    background-color: #19B14B;
+    border-radius: 100%;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+}
+
+
+

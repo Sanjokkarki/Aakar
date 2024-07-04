@@ -6,12 +6,12 @@
     background: #19B14B;
     color: #F0FDF3;
     font-size: 16px;
-    font-family: Axiforma;
+    font-family: 'Axiforma-SemiBold';
     font-weight: '600';
     text-transform: 'uppercase';
     letter-spacing: 0.64;
     word-wrap: 'break-word';
-    box-shadow: 1.5px 4px 5px rgba(0, 0, 0, 0.15);
+    
     border-radius: 8px;
      justify-Content: 'center';
     align-items: 'center';

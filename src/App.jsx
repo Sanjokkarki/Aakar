@@ -1,29 +1,21 @@
-import React from 'react'
-import './App.css'
+// App.js
+import React from 'react';
+import './App.css';
+import Home from './Pages/HomePage/Home';
+// import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import { Route, Routes } from 'react-router-dom'
-import Home from './Pages/Home'
-import Course from './Pages/Course'
-import Blogs from './Pages/Blogs'
-import AboutUs from './Pages/AboutUs'
-
-
-import Header from './Components/Navbar/Header'
-
+// const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     element: <Home />,
+//   },
+// ]);
 
 export default function App() {
   return (
- <>
-<Header />
-
-
- {/* <Routes>
-    <Route path="/" element={Home} />
-    <Route path="/course" element={Course} />
-    <Route path="/blog" element={Blogs} />
-    <Route path="/about" element={AboutUs} />
-
- </Routes> */}
- </>
-  )
+    <>
+      {/* <RouterProvider router={router} /> */}
+      <Home/>
+    </>
+  );
 }
